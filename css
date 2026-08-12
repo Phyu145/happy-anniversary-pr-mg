@@ -1,0 +1,43 @@
+body {
+  background-color: #ffe6eb;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: 350px;
+}
+.cake-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.cake-img {
+  width: 200px;
+}
+.candle-img {
+  width: 40px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hidden {
+  display: none;
+}
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff4081;
+  font-weight: bold;
+  line-height: 1.5;
+}
